@@ -15,6 +15,8 @@ body {
 }
 
 div#main {
+  /* background-color: rgb(121, 121, 121); */
+  text-shadow: 2px 0 2px white;
   display: flex;
   flex-direction: column;
   width: 100vw;

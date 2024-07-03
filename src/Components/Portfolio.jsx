@@ -19,7 +19,8 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+
+import image from "../images/portfolio.webp";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -29,30 +30,37 @@ const imageAltText = "desktop with books and laptop";
  * An array of objects that will be used to display for your project
  * links section. Below is a sample, update to reflect links you'd like to highlight.
  */
+
+
+
+
+
+
+
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "My-Portfolio",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Developed a responsive portfolio website using React.js with Vite for build automation. Utilized SCSS for styling and Framer Motion for animations, prioritizing user experience. Designed comprehensive sections for resume, projects, skills and relevant links, showcasing front-end development skills.",
+    url: "https://onkarpatil-portfolio.netlify.app/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "PenguiNews",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Developed a global news website with React, CSS, and Bootstrap. Integrated external APIs for up-to-date news content. The demo uses static data. The full version with complete API integration, which requires a subscription, can be shown locally.",
+    url: "https://penguinews.netlify.app/",
   },
   {
-    title: "My Resume Site",
+    title: "Handle-Text",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "A React-based website for text analysis. Implemented features like word count and character count, removing extra spaces, and usability. Showcased strong front-end development skills and attention to user needs.",
+    url: "https://handletext.netlify.app/",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Cara",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Developed a detailed front-end clothing e-commerce website using HTML, CSS, and JavaScript. The project highlights my skills in creating responsive designs, user-friendly interfaces, and interactive features.",
+    url: "https://onkarp300.github.io/Ecom.github.io/",
   },
 ];
 
